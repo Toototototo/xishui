@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2013 All Rights Reserved.
  */
-package test;
+package com.tooto.xishui;
 
 import java.util.HashMap;
 import java.util.Map;

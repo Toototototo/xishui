@@ -1,12 +1,16 @@
-package test.cases;
+package com.tooto.xishui;
 
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.internal.parser.json.JsonConverter;
 import com.alipay.api.internal.parser.xml.XmlConverter;
-import test.Util;
-import test.response.TestResponse;
+import com.tooto.xishui.utils.Util;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.tooto.xishui.response.TestResponse;
 
 public class TestConverter {
+
+    @Autowired
+    Util util;
 
     public static void main(String[] args) throws AlipayApiException, ClassNotFoundException {
         for (int i = 2; i <= 2; i++) {

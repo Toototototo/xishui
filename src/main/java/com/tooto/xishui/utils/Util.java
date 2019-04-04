@@ -1,9 +1,12 @@
-package test;
+package com.tooto.xishui.utils;
+
+import org.springframework.stereotype.Service;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+@Service
 public class Util {
     public static String read(String name) {
         StringBuffer buff = new StringBuffer();
@@ -42,5 +45,4 @@ public class Util {
 
         return buff.toString();
     }
-
 }

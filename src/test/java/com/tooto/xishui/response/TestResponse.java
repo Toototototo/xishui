@@ -1,4 +1,4 @@
-package test.response;
+package com.tooto.xishui.response;
 
 import java.util.Date;
 import java.util.List;
@@ -7,7 +7,7 @@ import com.alipay.api.AlipayResponse;
 import com.alipay.api.domain.Data;
 import com.alipay.api.internal.mapping.ApiField;
 import com.alipay.api.internal.mapping.ApiListField;
-import domain.UserInfo;
+import com.tooto.xishui.domain.UserInfo;
 
 
 public class TestResponse extends AlipayResponse {

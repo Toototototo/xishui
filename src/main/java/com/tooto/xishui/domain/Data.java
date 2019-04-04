@@ -1,4 +1,4 @@
-package domain;
+package com.tooto.xishui.domain;
 
 import java.util.List;
 

@@ -1,8 +1,8 @@
-package test.cases;
+package com.tooto.xishui;
 
 import com.alipay.api.AlipayApiException;
 import com.alipay.api.internal.parser.json.JsonConverter;
-import test.response.TestResponse;
+import com.tooto.xishui.response.TestResponse;
 
 public class TestJsonConverter {
 

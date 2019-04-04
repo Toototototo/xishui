@@ -1,4 +1,4 @@
-package domain;
+package com.tooto.xishui.domain;
 
 import com.alipay.api.AlipayObject;
 import com.alipay.api.internal.mapping.ApiField;
